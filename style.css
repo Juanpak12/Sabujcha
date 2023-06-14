@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0 50px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10px;
+    background-color: #f0f0f0;
+    margin-top: 0;
+  }
+  
+  .left-section {
+    display: flex;
+  }
+  
+  .left-section button {
+    font-weight: 600;
+    border: none;
+    margin-right: 30px;
+    border-radius: 10px;
+  }
+
+  .left-section button:hover {
+    background-color: green;
+    color: white;
+  }
+  
+  .center-section {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .right-section {
+    position: relative;
+  }
+  
+  .currency-button {
+    background-color: #ddd;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .flecha-menu {
+    width: 12px;
+    height: 12px;
+    padding-left: 15px;
+  }
+  .carrito-compra {
+    width: 30px;
+    height: 30px;
+    padding-left: 30px;
+}
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
