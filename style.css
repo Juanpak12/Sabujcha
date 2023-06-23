@@ -612,7 +612,7 @@ header {
 
 }
 
-/* Estilos para pantallas medianas */
+/* Estilos para pantallas pequeñas */
 @media screen and (max-width: 767px) {
 
   body {
@@ -907,6 +907,4 @@ header {
       margin-top: 10px;
       color: #575757;
   }
-  
-
 }
