@@ -178,6 +178,7 @@ header {
   font-weight: normal;
   margin-top: 5px;
   margin-bottom: 15px;
+  text-decoration:none;
 }
 
 #seccion1 a {
@@ -274,6 +275,7 @@ header {
   margin-top: 100px;
   margin-bottom: 20px;
   padding-top: 100px;
+  text-decoration: none;
 }
 
 #seccion3 p.text1-s3 {
@@ -381,6 +383,11 @@ header {
   font-size: 30px;
   font-weight: normal;
   margin-bottom: 30px;
+  color: #575757;
+}
+
+em {
+  font-style: italic;
   color: #575757;
 }
 .texto1 {
@@ -907,9 +914,6 @@ header {
       margin-top: 10px;
       color: #575757;
   }
-}
-.body {
-    padding: 50px;
 }
 
 .container-new-products{
