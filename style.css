@@ -1,0 +1,173 @@
+.body {
+    padding: 50px;
+}
+
+.container-new-products{
+    background-color: ghostwhite;
+}
+
+.title-text{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   flex-direction: column;
+}
+
+.title-text p{
+    font-family: 'Lora', serif;
+}
+
+.title-text h1{
+    text-decoration: none;
+}
+
+.img-products{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr  ;
+margin: 40px 0px 100px 100px;
+}
+
+.card-1 {
+    display: grid;
+    position: relative;
+}
+
+.title-product{
+    font-family: 'Work Sans', sans-serif;
+    color:  #575757;
+}
+
+.text-product{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.sale-product {   
+    position: absolute;
+    display: grid;
+    font-family: "Work Sans", sans-serif;
+    top: 10px;
+            left: 10px;
+                width: 40px;   
+                height: 40px;   
+                border-radius: 50%;   
+                background-color: #529F0F;   
+                color: #ffffff;   
+                padding: 5px;     
+                justify-content: center;   
+                align-items: center;   
+                font-size: 15px; }
+
+/*container new products*/
+
+.container-world{
+    background-image: url(Imagenes/bg-2.jpg);
+    height: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   flex-direction: column;
+}
+
+.container-world h1 {
+    text-decoration: none;
+}
+
+.text-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 200px;
+    border: 1px solid;
+    
+    
+}
+/* Container JOIN TO OUR NEWSLETTER*/
+
+.container-latest-news{
+background-image: url(./Imagenes/bg-1.jpg);
+padding: 50px 100px 50px 100px;
+
+}
+
+.square-cont-text{
+   display: flex;
+   justify-content: space-around;
+   font-family: 'Lora', serif;
+   color:  #575757;
+    
+}
+
+.days{
+    font-family: 'Open Sans', sans-serif;
+    color: green;
+    text-decoration: underline;
+
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin: 40px;
+}
+
+h4{
+    font-family: 'Playfair Display', serif;
+    color: #333333;
+}
+
+h6{
+    text-decoration: underline;
+    font-size: 18px;
+    color: #333333;
+}
+
+
+
+/* Se realiza el container de Latest news*/
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+/* imagenes fondo blanco*/
+
+.container-footer{
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 170px 50px 100px;
+    margin: 0px;
+    border: 0px;
+}
+
+.content-footer{
+    font-family: 'Lora', serif;
+}
+
+h3{
+    font-family: 'Playfair Display', serif;
+}
+
+.opc-pago{
+    height: 70px;
+    background: rgb(226, 226, 226);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    font-family: 'Lora', serif;
+
+}
+
+.img-payment{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    height: 30px;
+}
