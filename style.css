@@ -947,15 +947,46 @@ margin: 40px 0px 100px 100px;
     position: relative;
 }
 
+.card-2{
+    display: grid;
+    position: relative;  
+}
+
+.card-4{
+    display: grid;
+    position: relative;
+}
+
+.card-5{
+    display: grid;
+    position: relative;
+}
+
+.card-7{
+    display: grid;
+    position: relative;
+}
+
 .title-product{
     font-family: 'Work Sans', sans-serif;
     color:  #575757;
+    text-decoration: none;
 }
 
-.text-product{
-    font-family: 'Work Sans', sans-serif;
+.title-new-products {
+    font-size: 50px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: normal;
+    text-decoration: none;
 }
 
+.text-new-products{
+    font-size: 20px;
+    font-family: "Playfair Display", sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 .sale-product {   
     position: absolute;
     display: grid;
@@ -986,6 +1017,9 @@ margin: 40px 0px 100px 100px;
 
 .container-world h1 {
     text-decoration: none;
+    font-size: 50px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: normal;
 }
 
 .text-box{
@@ -1022,8 +1056,9 @@ padding: 50px 100px 50px 100px;
 }
 
 h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 40px;
+    font-size: 50px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: normal;
     display: flex;
     justify-content: center;
     text-decoration: underline;
