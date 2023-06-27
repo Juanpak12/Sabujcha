@@ -480,6 +480,10 @@ margin: 40px 0px 100px 100px;
   align-items: center;
   text-align: center;
 }
+
+.text-product{
+  font-family: "Work Sans", sans-serif;  
+}
 .sale-product {   
   position: absolute;
   display: grid;
